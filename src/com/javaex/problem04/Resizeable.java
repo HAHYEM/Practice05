@@ -1,5 +1,7 @@
 package com.javaex.problem04;
 
-public class Resizeable {
-
+public interface Resizeable  {
+	
+	public void resize(double s);
+	
 }
