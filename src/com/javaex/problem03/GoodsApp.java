@@ -10,11 +10,11 @@ public class GoodsApp {
     	Scanner sc = new Scanner(System.in);
     	ArrayList <Goods> garr = new ArrayList<>();
     	int total = 0;
-    	System.out.println("ìƒí’ˆ 3ê°œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”");
+    	System.out.println("»óÇ° 3°³¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
     	
     	for(int i = 0; i < 3; i++) {
     		String goodsInfo = sc.nextLine();
-    		String [] goods = goodsInfo.split(" "); //ì…ë ¥ë°›ì€ ì •ë³´ë¥¼ ê³µë°±ìœ¼ë¡œ ë¶„ë¦¬
+    		String [] goods = goodsInfo.split(" "); //ÀÔ·Â¹ŞÀº Á¤º¸¸¦ °ø¹éÀ¸·Î ºĞ¸®
     		
     		Goods g = new Goods();
     		g.setName(goods[0]);
@@ -29,7 +29,7 @@ public class GoodsApp {
     	for(int i = 0; i < garr.size(); i++) {
     		total = total + garr.get(i).getCount();
     	}
-    	System.out.println("ëª¨ë“  ìƒí’ˆì˜ ê°¯ìˆ˜ëŠ” " + total + "ê°œì…ë‹ˆë‹¤.");
+    	System.out.println("¸ğµç »óÇ°ÀÇ °¹¼ö´Â " + total + "°³ÀÔ´Ï´Ù.");
     	
     	sc.close();
     }

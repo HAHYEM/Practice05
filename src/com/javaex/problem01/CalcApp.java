@@ -17,11 +17,11 @@ public class CalcApp {
 			String data = sc.nextLine();
 
 			if (data.equals("/q")) {
-				System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
+				System.out.println("Á¾·áÇÕ´Ï´Ù.");
 				break;
 			}
 
-			String[] array = data.split(" "); // ë„ì–´ì“°ê¸°ë¡œ ë‚˜ëˆŒê²Œ
+			String[] array = data.split(" "); // ¶ç¾î¾²±â·Î ³ª´­°Ô
 			int left = Integer.parseInt(array[0]);
 			int right = Integer.parseInt(array[2]);
 			String middle = array[1];
@@ -52,7 +52,7 @@ public class CalcApp {
 				System.out.println(">> " + result);
 				break;
 			default:
-				System.out.println("ì´ìƒí•œ ê²ƒì„ ë„£ì—ˆë‹¤!!!!!!!!!");
+				System.out.println("ÀÌ»óÇÑ °ÍÀ» ³Ö¾ú´Ù!!!!!!!!!");
 				break;
 			}
 

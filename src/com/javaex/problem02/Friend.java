@@ -31,7 +31,7 @@ public class Friend {
     }
 
     public void showInfo(){
-        System.out.println("ì´ë¦„:"+name+"  í•¸ë“œí°:"+hp+"  í•™êµ:"+school);
+        System.out.println("ÀÌ¸§:"+name+"  ÇÚµåÆù:"+hp+"  ÇĞ±³:"+school);
     }
 
 }

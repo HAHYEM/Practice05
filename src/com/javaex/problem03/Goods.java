@@ -25,7 +25,7 @@ public class Goods {
 	}
     
     public void showInfo() {
-    	System.out.println(name+ "(ê°€ê²©:" + price+"ì›)ì´ " + count +"ê°œ ì…ê³ ë˜ì—ˆìŠµë‹ˆë‹¤.");
+    	System.out.println(name+ "(°¡°İ:" + price+"¿ø)ÀÌ " + count +"°³ ÀÔ°íµÇ¾ú½À´Ï´Ù.");
     	
     
     }
